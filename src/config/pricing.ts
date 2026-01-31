@@ -1,0 +1,143 @@
+
+export const pricingData = {
+    frauen: {
+        category: "Frauen",
+        sections: [
+            {
+                title: "Haarschnitt",
+                items: [
+                    { name: "Waschen, Schneiden", price_eur: 29 },
+                    { name: "Waschen, Schneiden, Föhnen | kurz", price_eur: 44 },
+                    { name: "Waschen, Schneiden, Föhnen | lang", price_eur: 54 },
+                    { name: "Pony schneiden", price_eur: 5 },
+                    { name: "Föhnen, Styling | kurz", price_eur: 20 },
+                    { name: "Föhnen, Styling | lang", price_eur: 30 }
+                ]
+            },
+            {
+                title: "Farbe",
+                items: [
+                    { name: "Komplett Farbe", price_from_eur: 45 },
+                    { name: "Ansatz Farbe", price_eur: 35 }
+                ]
+            },
+            {
+                title: "Highlights",
+                items: [
+                    { name: "Highlights & Farbe", price_from_eur: 75 },
+                    { name: "Ansatz Highlights komplett", price_from_eur: 70 },
+                    { name: "Highlight komplett", price_from_eur: 95 },
+                    { name: "Blondierung – Ansatz", price_from_eur: 45 },
+                    { name: "Glossing", price_eur: 20 },
+                    { name: "Intensivkur", price_eur: 9 }
+                ]
+            },
+            {
+                title: "Pakete",
+                items: [
+                    {
+                        name: "Premium Colour",
+                        price_from_eur: 105,
+                        includes: ["Waschen", "Schneiden", "Föhnen", "Farbe komplett", "Intensivkur"]
+                    },
+                    {
+                        name: "Premium Highlights",
+                        price_from_eur: 150,
+                        includes: ["Waschen", "Schneiden", "Föhnen", "Highlights komplett", "Glossing", "Intensivkur"]
+                    },
+                    {
+                        name: "Balayage/Ombre/Babylights | kurz",
+                        price_from_eur: 160,
+                        includes: ["Waschen", "Schneiden", "Föhnen", "Glossing", "Intensivkur"]
+                    },
+                    {
+                        name: "Balayage/Ombre/Babylights | lang",
+                        price_from_eur: 180,
+                        includes: ["Waschen", "Schneiden", "Föhnen", "Glossing", "Intensivkur"]
+                    }
+                ]
+            },
+            {
+                title: "Haarverlängerung",
+                items: [
+                    { name: "Bondings je Strähne (50 cm)", price_eur: 5 },
+                    { name: "Bondings je Strähne (60 cm)", price_eur: 6 },
+                    { name: "Bondings entfernen je Strähne", price_eur: 1 },
+                    { name: "Keratin Glättung", price_from_eur: 150 },
+                    { name: "Haarbotox", price_eur: 100 }
+                ]
+            },
+            {
+                title: "Braut Paket",
+                items: [
+                    { name: "Brautfriseur & Make-up", price_eur: 300 },
+                    { name: "Haare hochstecken", price_from_eur: 60 },
+                    { name: "Tages Make-Up", price_eur: 40 },
+                    { name: "Abend Make-Up", price_eur: 60 },
+                    { name: "Wimpern extra", price_eur: 10 }
+                ]
+            },
+            {
+                title: "Kosmetik",
+                items: [
+                    { name: "Augenbrauen zupfen", price_eur: 8 },
+                    { name: "Augenbrauen zupfen mit Farbe", price_eur: 13 },
+                    { name: "Gesicht komplett mit WAX", price_eur: 30 },
+                    { name: "Oberlippen", price_eur: 5 }
+                ]
+            },
+            {
+                title: "Kinderpreise",
+                items: [
+                    { name: "Kinder bis 14 Jahre", price_eur: 25 },
+                    { name: "ab 14 Jahren", price_eur: 35 }
+                ]
+            }
+        ],
+        studentDiscount: {
+            note: ["10% Rabatt des Normalpreises", "20% Rabatt jeden Montag für Augenbrauen, Schneiden, Föhnen"]
+        }
+    },
+    maenner: {
+        category: "Männer",
+        brand: "Antik Barber",
+        sections: [
+            {
+                title: "Haare & Bart",
+                items: [
+                    { name: "Haare waschen", price_eur: 5 },
+                    { name: "Haare waschen & föhnen", price_eur: 10 },
+                    { name: "Bart", price_eur: 15 },
+                    { name: "Haare schneiden", price_eur: 25 },
+                    { name: "Gesichtshaar Entfernung mit Wax (Nase, Ohren)", price_eur: 10 },
+                    { name: "Gesichtspflege", price_from_eur: 10 },
+                    { name: "Augenbrauen entfernen", price_eur: 8 },
+                    { name: "Kinder Haarschnitt (bis 12 Jahre)", price_eur: 15 },
+                    { name: "Kinder Haarschnitt (ab 12 bis 15 Jahre)", price_eur: 20 },
+                    { name: "Haare färben", price_from_eur: 20 },
+                    { name: "Bart färben", price_from_eur: 15 }
+                ]
+            },
+            {
+                title: "Sonderpreise bei Paketen",
+                items: [
+                    {
+                        name: "Paket 1",
+                        price_eur: 44,
+                        includes: ["Augenbrauen entfernen", "Haare waschen", "Föhnen", "Haarschnitt", "Bart"]
+                    },
+                    {
+                        name: "Paket 2",
+                        price_from_eur: 35,
+                        includes: ["Haare färben", "Bart färben"]
+                    },
+                    {
+                        name: "Paket 3",
+                        price_eur: 35,
+                        includes: ["Haare schneiden", "Bart schneiden"]
+                    }
+                ]
+            }
+        ]
+    }
+};
