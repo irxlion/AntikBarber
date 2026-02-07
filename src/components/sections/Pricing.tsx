@@ -10,7 +10,7 @@ import { translations } from '@/config/translations';
 type Category = 'frauen' | 'maenner';
 
 export const Pricing = () => {
-  const [activeTab, setActiveTab] = useState<Category>('frauen');
+  const [activeTab, setActiveTab] = useState<Category>('maenner');
   const { language, t } = useLanguage();
 
   // Ensure language is valid

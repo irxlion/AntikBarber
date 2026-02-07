@@ -18,16 +18,11 @@ export const Hero = () => {
         style={{ y }}
         className="absolute inset-0 z-0"
       >
-        <video
+        <img
+          src="/images/work/A33FD017-16AA-45C0-95E3-0C4AC37B0572.jpeg"
+          alt="A&B Premium Hair Salon"
           className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="/images/work/Hero.mov" type="video/quicktime" />
-          <source src="/images/work/Hero.mov" type="video/mp4" />
-        </video>
+        />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-background" />

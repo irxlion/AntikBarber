@@ -2,7 +2,7 @@
 // The app will automatically convert drive links to viewable images.
 
 export const assets = {
-  logo: "", // Leave empty to use text logo, or paste URL
+  logo: "/images/work/WhatsApp_Image_2026-02-07_at_21.30.48-removebg-preview.png", // A&B Antik Barber Logo
   heroBg: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=2574&auto=format&fit=crop", // Fallback luxury salon bg
 
   // Gallery Images (You can paste Drive links here)

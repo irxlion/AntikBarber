@@ -10,7 +10,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(6);
-  const [activeTab, setActiveTab] = useState<'women' | 'men'>('women');
+  const [activeTab, setActiveTab] = useState<'women' | 'men'>('men');
   const { t } = useLanguage();
 
   const currentImages = assets.gallery[activeTab];

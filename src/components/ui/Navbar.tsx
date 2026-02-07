@@ -54,7 +54,7 @@ export const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
           {assets.logo ? (
-            <img src={assets.logo} alt={siteConfig.name} className="h-10 w-auto" />
+            <img src={assets.logo} alt={siteConfig.name} className="h-14 w-auto brightness-0 invert" />
           ) : (
             <div className="flex flex-col">
               <span className="font-display text-2xl font-bold text-white tracking-wider group-hover:text-primary transition-colors">
