@@ -20,7 +20,7 @@ export const Hero = () => {
       >
         <img
           src="/images/work/A33FD017-16AA-45C0-95E3-0C4AC37B0572.jpeg"
-          alt="A&B Premium Hair Salon"
+          alt="Antik-Barber"
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Dark Overlay */}

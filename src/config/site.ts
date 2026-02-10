@@ -1,13 +1,13 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 export const siteConfig = {
-  name: "A&B Premium",
+  name: "Antik-Barber",
   slogan: "Modern Cuts. Timeless Style.",
   description: "Experience the art of hair styling in a luxurious environment. Specialized in women's color and men's barbering.",
 
   contact: {
     phone: "0621 46097685",
-    email: "info@ab-hair-salon.de",
+    email: "info@antikbarber.de",
     address: "R3 6, 68161 Mannheim",
     mapsLink: "https://goo.gl/maps/placeholder", // Replace with real link
     whatsapp: "https://wa.me/491234567890",

@@ -39,7 +39,7 @@ export const translations = {
         signature: {
             title: 'Unsere Signatur',
             subtitle: 'Exzellenz im Detail',
-            text: 'Bei A&B Premium glauben wir, dass Ihr Haar Ihr wichtigstes Accessoire ist. Unsere Meisterstylisten kombinieren traditionelle Techniken mit modernen Trends, um einen Look zu kreieren, der einzigartig für Sie ist.',
+            text: 'Bei Antik-Barber glauben wir, dass Ihr Haar Ihr wichtigstes Accessoire ist. Unsere Meisterstylisten kombinieren traditionelle Techniken mit modernen Trends, um einen Look zu kreieren, der einzigartig für Sie ist.',
             item1: 'Premium-Produkte (Kerastase, Olaplex)',
             item2: 'Persönliche Beratung',
             item3: 'Entspannende Kopfmassage inklusive',
@@ -227,7 +227,7 @@ export const translations = {
         signature: {
             title: 'Our Signature',
             subtitle: 'Excellence in Detail',
-            text: 'At A&B Premium, we believe your hair is your most important accessory. Our master stylists combine traditional techniques with modern trends to create a look that is uniquely yours.',
+            text: 'At Antik-Barber, we believe your hair is your most important accessory. Our master stylists combine traditional techniques with modern trends to create a look that is uniquely yours.',
             item1: 'Premium Products (Kerastase, Olaplex)',
             item2: 'Personalized Consultation',
             item3: 'Relaxing Scalp Massage included',

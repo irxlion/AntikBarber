@@ -16,7 +16,7 @@ export const LegalModal = ({ isOpen, onClose, type }: LegalModalProps) => {
             <section>
                 <h3 className="text-lg font-semibold text-primary mb-2">Angaben gemäß § 5 TMG</h3>
                 <p>
-                    A&B Premium Hair Salon<br />
+                    Antik-Barber<br />
                     {siteConfig.contact.address}
                 </p>
             </section>
@@ -40,7 +40,7 @@ export const LegalModal = ({ isOpen, onClose, type }: LegalModalProps) => {
             <section>
                 <h3 className="text-lg font-semibold text-primary mb-2">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
                 <p>
-                    A&B Premium Hair Salon<br />
+                    Antik-Barber<br />
                     {siteConfig.contact.address}
                 </p>
             </section>
@@ -105,7 +105,7 @@ export const LegalModal = ({ isOpen, onClose, type }: LegalModalProps) => {
                 <h3 className="text-lg font-semibold text-primary mb-2">2. Verantwortliche Stelle</h3>
                 <p className="text-sm">
                     Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br /><br />
-                    A&B Premium Hair Salon<br />
+                    Antik-Barber<br />
                     {siteConfig.contact.address}<br />
                     Telefon: {siteConfig.contact.phone}<br />
                     E-Mail: {siteConfig.contact.email}
